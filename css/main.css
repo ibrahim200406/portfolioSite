@@ -1,0 +1,21 @@
+/* ! Global css */
+@import url(base.css);
+
+/* ! Layout css */
+@import url(layout/navbar.css);
+@import url(layout/footer.css);
+
+/* ! Component css */
+@import url(glide/glide.core.min.css);
+@import url(glide/glide.theme.min.css);
+@import url(components/backToTopButton.css);
+
+/* ! Sections css */
+@import url(sections/home.css);
+@import url(sections/about.css);
+@import url(sections/services.css);
+@import url(sections/experiences.css);
+@import url(sections/projects.css);
+@import url(sections/reviews.css);
+@import url(sections/blogs.css);
+@import url(sections/contact.css);

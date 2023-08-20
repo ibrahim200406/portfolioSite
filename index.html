@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- ? Bootsrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- ? Glide  -->
+    <link rel="stylesheet" href="css/glide/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide/glide.theme.min.css">
+    <title>Carlos | Personel Site</title>
+</head>
+
+<body>
+    <!-- ! Back to Top Button Start -->
+    <div class="backToTopButton" id="backToTopButton">
+        <a href="#home" type="button"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <!-- ! Back to Top Button End -->
+
+    <!-- ! Navbar start -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navbar-wrapper">
+                <div class="logo-wrapper">
+                    <a href=""><img src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="menu-wrapper" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#experiences">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#blogs">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link " href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="social-media-links-wrapper">
+                    <ul class="social-media-list" id="social-media-list">
+                        <li class="list-item"><a class="social-link" id="email" href=""><i
+                                    class="fa-regular fa-envelope"></i></a>
+                        </li>
+                        <li class="list-item"> <a class="social-link " id="linkedin" href=""><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="list-item"><a class="social-link" id="twitter" href=""><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" id="navbar-toggler">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- ! Navbar end -->
+
+    <!-- ! Hero start -->
+    <section class="home-section" id="home">
+        <div class="container">
+            <div class="row " id="home-wrapper">
+                <div class="left col-lg-6 col-md-12 col-12">
+                    <div class="hello mb-3">
+                        <h6>Hey I'm <span id="name"></span></h6>
+                    </div>
+                    <div class="text mb-3">
+                        <p>With five years of experience in web design, I have honed my skills in creating intuitive and
+                            visually appealing websites.</p>
+                    </div>
+                    <div class="buttons">
+                        <a href="">Hire Me</a>
+                        <a href="">Download CV</a>
+                    </div>
+                </div>
+                <div class="right col-lg-6 col-md-12 col-12 ">
+                    <img src="img/person1.png" alt="">
+                    <div class="project-counter">
+                        <span id="completedWorksNumber"></span>
+                        <h6>Project Completed</h6>
+                    </div>
+                    <div class="introduction">
+                        <h6>Web Designer</h6>
+                        <h6>+5 Years Experience</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! Hero end -->
+
+    <!-- ! About start -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="left col-lg-6 col-md-6">
+                    <img src="img/person2.jpg" alt="">
+                    <div class="text-center">
+                        <h6>Web Designer</h6>
+                        <div class="span-wrapper">
+                            <span class="number">5+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-lg-6 col-md-6">
+                    <div class="text-start">
+                        <h6>I'm an Avid Web Enthusiast</h6>
+                        <p>Clearly, I specialize in Web Design. A seasoned Web Developer with over 8 years under my
+                            belt. Skilled in every phase of the development process for robust web ventures. Rather than
+                            using placeholder text, I opt for meaningful, coherent English.</p>
+                        <p>I am a dedicated web designer. My goal is to craft top-notch designs, leveraging my
+                            accumulated years of expertise.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#projects">See Work</a>
+                    </div>
+                </div>
+            </div>
+            <div class="experties-wrapper">
+                <div class="top-wrapper">
+                    <div class="title">
+                        <h6>Hobbies & Expertise</h6>
+                    </div>
+                    <div class="sub-info">
+                        <p>Clearly, I'm a Digital Artist. Software Engineer with over 8 years in the field. Proficient
+                            in every aspect of the software lifecycle.</p>
+                    </div>
+                </div>
+                <ul class="row g-5">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+
+                            <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+                            <div class="item-title">
+                                <h5>Computer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-mug-hot"></i></div>
+                            <div class="item-title">
+                                <h5>Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-volleyball"></i></div>
+                            <div class="item-title">
+                                <h5>Sports</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-music"></i></div>
+                            <div class="item-title">
+                                <h5>Music</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-book"></i></div>
+                            <div class="item-title">
+                                <h5>Books</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-film"></i></div>
+                            <div class="item-title">
+                                <h5>Cinema</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-brands fa-android"></i></div>
+                            <div class="item-title">
+                                <h5>Android</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-brands fa-apple"></i></div>
+                            <div class="item-title">
+                                <h5>IOS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-baseball-bat-ball"></i></div>
+                            <div class="item-title">
+                                <h5>Baseball</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-tv"></i></div>
+                            <div class="item-title">
+                                <h5>Television</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-code"></i></div>
+                            <div class="item-title">
+                                <h5>Coding</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="item-wrapper">
+                            <div class="icon"><i class="fa-solid fa-database"></i></div>
+                            <div class="item-title">
+                                <h5>Database</h5>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ! About end -->
+
+    <!-- ! Services start -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>What do I offer?</h6>
+                </div>
+                <div class="sub-info">
+                    <p>Obviously I'm a Web Designer. Web Developer with over 5 years of experience. Experienced with all
+                        stages of the development.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-solid fa-swatchbook"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>UI / UX Design</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-brands fa-app-store"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>Apple App Design</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>7 / 24</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-solid fa-ear-listen"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>Server</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>Database</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-wrapper">
+                        <div class="icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="title">
+                            <a href="">
+                                <h6>Security</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+                            </p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="#">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! Services end -->
+
+    <!-- ! Experience start -->
+    <section class="experiences-section" id="experiences">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>Work Experience</h6>
+                </div>
+                <div class="sub-info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nobis reprehenderit natus
+                        deleniti sunt blanditiis quam nihil quas cupiditate facilis?
+                    </p>
+                </div>
+            </div>
+            <div class="experiences-wrapper">
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="img/experience1.jpg" alt="">
+                    </div>
+                    <div class="company-name">
+                        <h6>Freedom</h6>
+                    </div>
+                    <div class="workYear">
+                        <span>2015 / 2016</span>
+                    </div>
+                    <div class="your-position">
+                        <h6>Jr. UI / UX Designer</h6>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nulla natus rem aperiam qui!
+                            Itaque laudantium quia libero ipsa odio porro magni optio consectetur fugit doloribus,
+                            maiores minus ipsam quae.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="img/experience2.jpg" alt="">
+                    </div>
+                    <div class="company-name">
+                        <h6>Maventech</h6>
+                    </div>
+                    <div class="workYear">
+                        <span>2017 / 2018</span>
+                    </div>
+                    <div class="your-position">
+                        <h6> Jr. Frontend Developer</h6>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nulla natus rem aperiam qui!
+                            Itaque laudantium quia libero ipsa odio porro magni optio consectetur fugit doloribus,
+                            maiores minus ipsam quae.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-logo">
+                        <img src="img/experience3.jpg" alt="">
+                    </div>
+                    <div class="company-name">
+                        <h6>WhatsApp</h6>
+                    </div>
+                    <div class="workYear">
+                        <span>2019 / 2020</span>
+                    </div>
+                    <div class="your-position">
+                        <h6>Sr. Frontend Developer</h6>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nulla natus rem aperiam qui!
+                            Itaque laudantium quia libero ipsa odio porro magni optio consectetur fugit doloribus,
+                            maiores minus ipsam quae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! Experience end -->
+
+    <!-- !Projects start -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>My Work & Projects
+                    </h6>
+                </div>
+                <div class="sub-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, earum fuga nesciunt fugiat vel
+                        magnam quidem ratione cupiditate..</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project1.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Hacking</h6>
+                            </div>
+                            <div class="category">
+                                <span>Cyber ​Security
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project2.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Fronter Theme</h6>
+                            </div>
+                            <div class="category">
+                                <span>UI / UX Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project3.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>IOS App</h6>
+                            </div>
+                            <div class="category">
+                                <span>App</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project4.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Colorful Theme</h6>
+                            </div>
+                            <div class="category">
+                                <span>UI / UX Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project5.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Impressive Photographs</h6>
+                            </div>
+                            <div class="category">
+                                <span>Photography</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project6.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Impressive Coding</h6>
+                            </div>
+                            <div class="category">
+                                <span>Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project7.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Powerful Databases</h6>
+                            </div>
+                            <div class="category">
+                                <span>Database</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="project-wrapper">
+                        <div class="background-image">
+                            <img src="img/project8.jpg" alt="">
+                        </div>
+                        <div class="hover-section">
+                            <div class="title">
+                                <h6>Android App</h6>
+                            </div>
+                            <div class="category">
+                                <span>App</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ! Reviews start -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>Client's Review</h6>
+                </div>
+                <div class="sub-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos esse consequuntur
+                        architecto dolore, pariatur molestias.</p>
+                </div>
+            </div>
+            <div class="reviews-wrapper">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="review-wrapper">
+                                    <div class="review-top-wrapper">
+                                        <div class="quote">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, minima
+                                                voluptatibus. Soluta possimus mollitia quos eaque excepturi! Recusandae,
+                                                possimus.</p>
+                                        </div>
+                                        <div class="star">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-bottom-wrapper">
+                                        <div class="profile-image">
+                                            <img src="img/profile1.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <h5>Eric Stone</h5>
+                                        </div>
+                                        <div class="statu">
+                                            <h6>Manager</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="review-wrapper">
+                                    <div class="review-top-wrapper">
+                                        <div class="quote">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, minima
+                                                voluptatibus. Soluta possimus mollitia quos eaque excepturi! Recusandae,
+                                                possimus.</p>
+                                        </div>
+                                        <div class="star">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-bottom-wrapper">
+                                        <div class="profile-image">
+                                            <img src="img/profile2.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <h5>Jessica Wave</h5>
+                                        </div>
+                                        <div class="statu">
+                                            <h6>Manager</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="review-wrapper">
+                                    <div class="review-top-wrapper">
+                                        <div class="quote">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, minima
+                                                voluptatibus. Soluta possimus mollitia quos eaque excepturi! Recusandae,
+                                                possimus.</p>
+                                        </div>
+                                        <div class="star">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-bottom-wrapper">
+                                        <div class="profile-image">
+                                            <img src="img/profile3.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <h5>Tom Doll</h5>
+                                        </div>
+                                        <div class="statu">
+                                            <h6>CEO</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="review-wrapper">
+                                    <div class="review-top-wrapper">
+                                        <div class="quote">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, minima
+                                                voluptatibus. Soluta possimus mollitia quos eaque excepturi! Recusandae,
+                                                possimus.</p>
+                                        </div>
+                                        <div class="star">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-bottom-wrapper">
+                                        <div class="profile-image">
+                                            <img src="img/profile4.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <h5>Amelia Preston
+                                            </h5>
+                                        </div>
+                                        <div class="statu">
+                                            <h6>Manage</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="review-wrapper">
+                                    <div class="review-top-wrapper">
+                                        <div class="quote">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, minima
+                                                voluptatibus. Soluta possimus mollitia quos eaque excepturi! Recusandae,
+                                                possimus.</p>
+                                        </div>
+                                        <div class="star">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-bottom-wrapper">
+                                        <div class="profile-image">
+                                            <img src="img/profile6.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                            <h5>Bob Hawkins</h5>
+                                        </div>
+                                        <div class="statu">
+                                            <h6>Manage</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! Reviews end -->
+
+    <!-- ! Blogs start -->
+    <section class="blogs-section" id="blogs">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>Blogs or News</h6>
+                </div>
+                <div class="sub-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorem incidunt unde vel itaque
+                        voluptate.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-wrapper">
+                        <div class="blog-image">
+                            <img src="img/blog2.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <a href="">
+                                <h6>Exploring Innovative Web Design Techniques</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae!</p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-wrapper">
+                        <div class="blog-image">
+                            <img src="img/blog1.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <a href="">
+                                <h6>Navigating the Realm of Interactive Web Experiences
+                                </h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae!</p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-wrapper">
+                        <div class="blog-image">
+                            <img src="img/blog3.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <a href="">
+                                <h6>Journeying Through Evolving Web Design Paradigms</h6>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, quae!</p>
+                        </div>
+                        <div class="read-more-button">
+                            <a href="">Read More&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !Blogs end -->
+
+    <!-- ! Contact start  -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="top-wrapper">
+                <div class="title">
+                    <h6>Get In Touch !</h6>
+                </div>
+                <div class="sub-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit, ab similique, optio
+                        provident enim repellendus reprehenderit molestias delectus.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="form-wrapper">
+                        <form action="">
+                            <div class=""><input type="text" required placeholder="Name:">
+                                <input type="email" required placeholder="Emalil:">
+                            </div>
+
+                            <input type="text" required placeholder="Subject:">
+                            <textarea rows="5" placeholder="Message:"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="informations-wrapper">
+                        <div class="phone">
+                            <div class="icon"><i class="bi bi-telephone"></i></div>
+                            <div class="right">
+                                <div class="title">
+                                    <h6>Phone</h6>
+                                </div>
+                                <div class="text">
+                                    <a href="tel:+12345678952">
+                                        <p>+90 123 456 78 89</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="informations-wrapper">
+                        <div class="email">
+                            <div class="icon"><i class="bi bi-envelope"></i></div>
+                            <div class="right">
+                                <div class="title">
+                                    <h6>E-mail</h6>
+                                </div>
+                                <div class="text">
+                                    <a href="mailto:example@gmail.com">
+                                        <p>example@gmail.com</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="informations-wrapper">
+                        <div class="location">
+                            <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                            <div class="right">
+                                <div class="title">
+                                    <h6>Location</h6>
+                                </div>
+                                <div class="text">
+                                    <p>A/54 Northwest Freeway, Suite 558, New York, USA 257</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! Contact end  -->
+
+
+    <!-- ! Footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <p class="text-center">&copy; 2023 Copyright All Right Reserved</p>
+                </div>
+                <div class="right">
+                    <div class="social-media-wrapper">
+                        <ul>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ! Footer end -->
+
+    <!--  JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/pages/index.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <!-- Glide -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+    <script src="js/glide/glide.js"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/fc9128b63c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+/* ! Home Section CSS start */
+.home-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #1f78fd05;
+    z-index: 1;
+}
+
+.home-section:before {
+    content: "";
+    position: absolute;
+    bottom: 10rem;
+    rotate: 115deg;
+    inset-inline-start: 45rem;
+    width: 90rem;
+    height: 35rem;
+    background-color: #1F79FD;
+}
+
+.home-section::after {
+    content: "";
+    position: absolute;
+    rotate: 115deg;
+    inset-inline-start: 30rem;
+    height: 10rem;
+    width: 75rem;
+    bottom: 24rem;
+    background-color: #1f78fd15;
+    z-index: 0;
+}
+
+.home-section .container {
+    position: relative;
+    z-index: 10;
+}
+
+.home-section .container .row .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.home-section .container .row .left .hello h6 {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+}
+
+.home-section .container .row .left .hello h6 span {
+    color: #1F79FD;
+}
+
+.home-section .container .row .left .text p {
+    color: rgb(148 163 184);
+}
+
+.home-section .container .row .left .buttons a {
+    color: white !important;
+    padding: 12px 18px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.home-section .container .row .left .buttons a:first-child {
+    background-color: #1F79FD;
+
+}
+
+.home-section .container .row .left .buttons a:first-child:hover {
+    background-color: #2562be;
+}
+
+.home-section .container .row .left .buttons a:last-child {
+    background-color: #1f78fd15;
+    color: #1F79FD !important;
+}
+
+.home-section .container .row .left .buttons a:last-child:hover {
+    background-color: #1F79FD;
+    color: white !important;
+}
+
+.home-section .container .row .right {
+    position: relative;
+}
+
+.home-section .container .row .right img {
+    width: 102%;
+}
+
+.home-section .container .row .right .project-counter {
+    position: absolute;
+    top: 40rem;
+}
+
+.home-section .container .row .right .project-counter span {
+    font-size: 30px !important;
+    font-weight: 600;
+}
+
+.home-section .container .row .right .project-counter h6 {
+    color: #c4c4c4;
+    font-size: 14px !important;
+}
+
+.home-section .container .row .right .introduction {
+    position: absolute;
+    padding: 20px 15px !important;
+    top: 27rem;
+    right: -1.25rem;
+}
+
+.home-section .container .row .right .introduction h6:first-child {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px !important;
+}
+
+.home-section .container .row .right .introduction h6:last-child {
+    color: #c4c4c4;
+    font-size: 16px !important;
+}
+
+.home-section .container .row .right .introduction,
+.home-section .container .row .right .project-counter {
+    background-color: white;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px -2px #c4c4c4;
+
+}
+
+/* ? Home Section Responsive Start */
+@media(max-width:991px) {
+    .home-section:before {
+        inset-inline-start: 18rem;
+    }
+
+    .home-section::after {
+        inset-inline-start: 3rem;
+    }
+
+    .home-section .container .row {
+        padding-top: 100px;
+    }
+
+    .home-section .container .row .right .project-counter {
+        top: 30rem;
+    }
+
+    .home-section .container .row .right .introduction {
+        top: 19rem;
+        right: 0.75rem;
+    }
+
+}
+
+@media(max-width:758px) {
+    .home-section:before {
+        top: 0;
+        left: 1rem;
+    }
+
+    .home-section::after {
+        inset-inline-start: -11rem;
+        top: 14rem;
+    }
+
+    .home-section .container .row .left .hello h6 {
+        font-size: 30px;
+    }
+
+    .home-section .container .row .right .introduction {
+        display: none;
+    }
+
+    .home-section .container .row .right .project-counter {
+        padding: 10px 20px;
+        top: 17rem;
+    }
+
+    .home-section .container .row .right .project-counter span {
+        font-size: 20px !important;
+    }
+
+    .home-section .container .row .right .project-counter h6 {
+        font-size: 10px !important;
+    }
+}
+
+/* ? Home Section Responsive End */
+
+
+/* ! Home Section CSS end */

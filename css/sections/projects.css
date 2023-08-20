@@ -1,0 +1,170 @@
+/* ! Projects CSS Start */
+.projects-section {
+    padding: 100px 0;
+}
+
+
+.projects-section .container .top-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-section .container .top-wrapper .title h6 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+
+.projects-section .container .top-wrapper .sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-section .container .top-wrapper .sub-info p {
+    text-align: center;
+    color: rgb(148 163 184);
+    margin-bottom: 55px;
+    width: 70%;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper .background-image {
+    width: 100%;
+    height: 255px;
+    position: relative;
+}
+
+
+
+
+
+.projects-section .container .row .col-lg-3 .project-wrapper .background-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.projects-section .container .row .col-lg-3 {
+    padding-bottom: 20px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper .hover-section {
+    visibility: hidden;
+    opacity: 0;
+    width: 93%;
+    position: absolute;
+    height: 93%;
+    border-radius: 10px;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.11537114845938379) 6%, rgba(0, 0, 0, 0.6699929971988796) 51%);
+    transition: all .4s ease-in-out;
+}
+
+.projects-section .container .row .col-lg-3:hover .hover-section {
+    visibility: visible;
+    opacity: 1;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F79FD;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 38%;
+    right: 46%;
+    transition: all .2s ease-in-out;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper a:hover {
+    background-color: #255fb6;
+}
+
+
+.projects-section .container .row .col-lg-3 .project-wrapper a i {
+
+    color: white;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper .title {
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    padding-left: 25px;
+}
+
+.projects-section .container .row .col-lg-3 .project-wrapper .title h6 {
+    font-weight: 700;
+    font-size: 16px !important;
+    font-family: Poppins, sans-serif;
+}
+
+
+.projects-section .container .row .col-lg-3 .project-wrapper .category {
+    position: absolute;
+    bottom: 10%;
+    font-size: 14px;
+    color: rgb(148 163 184);
+    padding-left: 25px;
+}
+
+
+/* ? Responsive start */
+@media(max-width:991px) {
+    .projects-section .container .row .col-lg-3 .project-wrapper .hover-section {
+        width: 94%;
+        height: 94%;
+    }
+
+    .projects-section .container .row .col-lg-3 .project-wrapper .background-image {
+        height: 100%;
+    }
+
+    .projects-section .container .top-wrapper .sub-info p {
+        width: 90%;
+    }
+}
+
+@media(max-width:758px) {
+
+
+    .projects-section .container .row .col-lg-3 .project-wrapper .hover-section {
+        width: 90%;
+        height: 89%;
+    }
+
+    .projects-section .container .row .col-lg-3 .project-wrapper .title {
+        bottom: 23%;
+        padding-left: 18px;
+    }
+
+    .projects-section .container .row .col-lg-3 .project-wrapper .title h6 {
+        font-size: 12px !important;
+    }
+
+    .projects-section .container .row .col-lg-3 .project-wrapper .category {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+
+    .projects-section .container .top-wrapper .sub-info p {
+font-size: 15px !important;
+        width: 100%;
+    }
+}
+
+
+/* ? Responsive end */
+
+/* ! Projects CSS End */

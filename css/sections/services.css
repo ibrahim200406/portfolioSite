@@ -1,0 +1,113 @@
+/* ! Services css start */
+
+.services-section {
+    background-color: #F9FAFB;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.services-section .container .top-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-section .container .top-wrapper .title h6 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+
+.services-section .container .top-wrapper .sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-section .container .top-wrapper .sub-info p {
+    text-align: center;
+    color: rgb(148 163 184);
+    margin-bottom: 55px;
+    width: 60%;
+}
+
+.services-section .container .row .col-lg-4 {
+    padding: 15px;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper {
+    position: relative;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 13px -1px rgb(241, 241, 241);
+    border-radius: 15px;
+    border: 5px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper:hover {
+    transform: translateY(-5px);
+    border: 5px solid #1F79FD;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .icon {
+    margin-bottom: 25px;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .icon i {
+    color: #1F79FD;
+    font-size: 40px;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .title {
+    margin-bottom: 15px;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .title a h6 {
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+    font-family: Poppins, sans-serif;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .text p {
+    color: rgb(148 163 184);
+    font-size: 16px;
+}
+
+.services-section .container .row .col-lg-4 .service-wrapper .read-more-button a {
+    font-size: 16px !important;
+    transition: all .2s ease-in-out;
+}
+
+/* ? Services Responsive Start */
+
+@media(max-width:991px) {
+    .services-section .container .top-wrapper .sub-info p {
+        width: 85%;
+    }
+
+    .services-section {
+        background-color: #F9FAFB;
+        padding-top: 90px;
+    }
+}
+
+@media(max-width:758px) {
+    .services-section .container .top-wrapper .sub-info p {
+        width: 100%;
+        font-size: 15px !important;
+    }
+
+    .services-section {
+        background-color: #F9FAFB;
+        padding-top: 90px;
+    }
+}
+
+/* ? Services Responsive End */
+
+/* ! Services css end */

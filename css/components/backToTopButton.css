@@ -1,0 +1,24 @@
+/* ! Back to Top Css Start */
+.backToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.backToTopButton a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F79FD;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.backToTopButton a i {
+    color: white;
+}
+
+/* ! Back to Top Css End */

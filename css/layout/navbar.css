@@ -1,0 +1,196 @@
+/* ! Navbar css start */
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    background-color: transparent;
+    padding: 0.3rem 0 !important;
+    transition: all .2s ease-in-out;
+    border-bottom: 1px solid #dedede;
+    z-index: 100;
+}
+
+.navbar .container .navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* * logo css start */
+.navbar .container .navbar-wrapper .logo-wrapper {
+    width: 100%;
+}
+
+.navbar .container .navbar-wrapper .logo-wrapper img {
+    width: 30%;
+}
+
+/* * logo css end */
+
+
+/* * Menu css start */
+.navbar .container .navbar-wrapper .menu-wrapper .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0 !important;
+    margin-right: 25px;
+}
+
+.navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item {
+    display: flex;
+    padding: 0.75rem;
+}
+
+.navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item .nav-link {
+    width: max-content;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(22 28 45) !important;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item .nav-link:hover {
+    color: #1F79FD !important;
+}
+
+.navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item .nav-link.active {
+    width: max-content;
+    color: #1F79FD !important;
+}
+
+/* * Menu css end */
+
+
+/* * Social media links css start  */
+.navbar .container .navbar-wrapper .social-media-links-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 1px solid #e5e7eb;
+    background-color: #f1f1f1;
+    border-radius: 100rgb(241, 241, 241);
+    transition: all .2s ease-in-out
+}
+
+.navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link:hover {
+    background-color: #E5E7EB;
+}
+
+.navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link i {
+    font-size: 14px;
+    transition: all .0s;
+}
+
+/* * Social media links css end  */
+
+
+/* * Navbar toggler css start */
+.navbar .container .navbar-wrapper .navbar-toggler {
+    display: none;
+    border: none;
+}
+
+.navbar .container .navbar-wrapper .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* * Navbar toggler css end */
+
+
+/* ? Navbar responsive start */
+@media(max-width:991px) {
+    .navbar {
+        background-color: white;
+        padding: 10px !important;
+    }
+
+    .navbar .container .navbar-wrapper .logo-wrapper img {
+        width: 20%;
+    }
+
+    .navbar .container .navbar-wrapper {
+        position: relative;
+    }
+
+    .navbar .container .navbar-wrapper .menu-wrapper {
+        display: none;
+        position: absolute;
+        width: 200%;
+        top: 52px;
+        left: -140px;
+    }
+
+    .navbar .container .navbar-wrapper .menu-wrapper .navbar-nav {
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        padding-left: 142px;
+    }
+
+    .navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item {
+        display: flex;
+        padding: 0.4rem;
+    }
+
+
+    .navbar .container .navbar-wrapper .navbar-toggler {
+        display: block;
+    }
+
+    .navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link {
+        background-color: #1F79FD;
+    }
+
+    .navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link i {
+        color: white;
+    }
+
+    .navbar .container .navbar-wrapper .social-media-links-wrapper .social-media-list .list-item .social-link:hover {
+        background-color: #1F79FD;
+    }
+}
+
+@media(max-width:758px) {
+    .navbar .container .navbar-wrapper .menu-wrapper .navbar-nav .nav-item .nav-link {
+        font-weight: 600;
+
+    }
+
+    .navbar .container .navbar-wrapper .menu-wrapper {
+        position: absolute;
+        width: 200%;
+        top: 44px;
+        left: -140px;
+    }
+
+    .navbar .container .navbar-wrapper .logo-wrapper img {
+        width: 50%;
+    }
+}
+
+/* ? Navbar responsive end */
+/* ! Navbar css end */

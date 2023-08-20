@@ -1,0 +1,238 @@
+/* ! About CSS Start */
+.about-section {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.about-section .container .left img {
+    width: 75%;
+    border-radius: 300px;
+    padding: 5px 0 0 20px;
+    border-left: 1px solid #dedede;
+}
+
+.about-section .container .left {
+    position: relative;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.about-section .container .left .text-center {
+    position: absolute;
+    top: 25rem;
+    right: 3rem;
+    background-color: white;
+    text-align: center;
+    padding: 20px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px -2px #c4c4c4;
+}
+
+.about-section .container .left .text-center h6 {
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+}
+
+.about-section .container .left .text-center .span-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.about-section .container .left .text-center .span-wrapper .number {
+    position: absolute;
+    top: .125rem;
+    left: 1.5rem;
+    color: #1F79FD;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.about-section .container .left .text-center .span-wrapper .text {
+    display: flex;
+    padding-top: 8px;
+    width: min-content;
+    color: rgb(148 163 184);
+    text-align: end;
+    font-size: 14px;
+}
+
+.about-section .container .right {
+    display: flex;
+    padding-left: 0 !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-section .container .right h6 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 30px !important;
+
+}
+
+.about-section .container .right p {
+    color: rgb(148 163 184);
+    font-weight: 0;
+    line-height: 1.8rem !important;
+}
+
+.about-section .container .right p:last-child {
+    color: rgb(148 163 184);
+    font-weight: 0;
+    line-height: 1.8rem !important;
+    margin-bottom: 40px;
+}
+
+.about-section .container .right .button a {
+    background-color: #1f78fd15;
+    color: #1F79FD !important;
+    padding: 12px 18px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.about-section .container .right .button a:hover {
+    background-color: #1F79FD;
+    color: white !important;
+}
+
+
+.about-section .container .experties-wrapper {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-section .container .experties-wrapper .top-wrapper {
+    width: 50%;
+}
+
+.about-section .container .experties-wrapper .top-wrapper .title h6 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+
+.about-section .container .experties-wrapper .top-wrapper .sub-info p {
+    text-align: center;
+    color: rgb(148 163 184);
+    margin-bottom: 55px;
+}
+
+.about-section .container .experties-wrapper .row {
+    width: 100%;
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 {
+    padding: 15px;
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper {
+    border: 1px solid #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: all .2s ease-in-out;
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper:hover .icon {
+    background-color: #1F79FD;
+
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper:hover .icon i {
+    color: white;
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f78fd15;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    rotate: 45deg;
+    margin-right: 20px;
+    transition: all .3s ease-in-out;
+
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper .icon i {
+    position: absolute;
+    color: #1F79FD;
+    rotate: -45deg;
+    transition: all .3s ease-in-out;
+
+}
+
+.about-section .container .experties-wrapper .row .col-lg-3 .item-wrapper .item-title h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 18px !important;
+}
+
+
+
+
+/* ? About responsive start */
+@media(max-width:991px) {
+    .about-section .container .left img {
+        width: 90%;
+    }
+
+    .about-section .container .experties-wrapper .top-wrapper {
+        width: 65%;
+    }
+
+    .about-section .container .left .text-center {
+        top: 19rem;
+        right: 1rem;
+        padding: 19px 28px;
+    }
+}
+
+@media(max-width:758px) {
+    .about-section .container .experties-wrapper .top-wrapper {
+        width: 95%;
+    }
+
+    .about-section .container .left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 35px;
+        margin-bottom: 40px;
+    }
+
+    .about-section .container .right {
+        padding-left: 15px !important;
+    }
+
+    .about-section .container .right p {
+        font-size: 15px !important;
+    }
+
+    .about-section .container .right h6 {
+        font-size: 1.3rem !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* ? About responsive end */
+
+/* ! About CSS End */

@@ -1,0 +1,108 @@
+/* ! Blogs Css Start */
+.blogs-section {
+    padding: 100px 0;
+}
+
+
+.blogs-section .container .top-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs-section .container .top-wrapper .title h6 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+
+.blogs-section .container .top-wrapper .sub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogs-section .container .top-wrapper .sub-info p {
+    text-align: center;
+    color: rgb(148 163 184);
+    margin-bottom: 55px;
+    width: 70%;
+}
+
+.blogs-section .container .row .col-lg-4 .blog-image {
+    height: 200px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.blogs-section .container .row .col-lg-4 .blog-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .blog-title h6 {
+    padding: 0 5px;
+    font-weight: 500;
+    font-size: 18px !important;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 12px !important;
+    transition: all .3s ease-in-out;
+}
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .blog-title h6:hover {
+    color: #1F79FD;
+}
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .text p {
+    padding: 0 5px;
+    color: rgb(148 163 184);
+    margin-bottom: 15px !important;
+}
+
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .read-more-button a {
+    padding: 0 5px;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .read-more-button a i {
+    transition: all .4s ease-in-out;
+}
+
+.blogs-section .container .row .col-lg-4 .blogs-wrapper .read-more-button a:hover i {
+    transform: translateX(5px);
+}
+
+/* ? Blogs Responsive start */
+@media(max-width:991px) {
+    .blogs-section .container .row .col-lg-4 .blogs-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .blogs-section .container .top-wrapper .sub-info p {
+        width: 90%;
+    }
+}
+
+@media(max-width:758px) {
+    .blogs-section .container .row .col-lg-4 .blogs-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .blogs-section .container .top-wrapper .sub-info p {
+        width: 100%;
+        font-size: 15px !important;
+    }
+
+}
+
+/* ? Blogs Responsive end */
+
+/* ! Blogs Css End */
